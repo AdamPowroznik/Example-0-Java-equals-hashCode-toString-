@@ -1,0 +1,1 @@
+This repository contains example of how to write class methods: equals(), hashCode(), toString();
