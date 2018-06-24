@@ -1,4 +1,7 @@
+package equals;
+
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Employee {
 	private String name;
@@ -45,5 +48,13 @@ public class Employee {
 		return name.equals(other.name)
 				&& salary == other.salary
 				&& hireDay.equals(other.hireDay);
+	}
+	
+	@Override public int hashCode() {
+		return Objects.hash(name, salary, hireDay);
+	}
+	
+	@Override public String toString() {
+		return getClass().getName() + "[name=" + name + " ,salary=" + salary + ",hireDay=" + hireDay + "]";
 	}
 }
