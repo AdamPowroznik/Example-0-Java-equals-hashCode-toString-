@@ -1,9 +1,5 @@
-Example
+Example No.0
 ==========
-
-Number
----------
-No. 0
 
 Language
 ----------
@@ -15,7 +11,7 @@ I created this app by myself, using Cay S. Horstman book
 
 Version
 ---------
-Not fully completed, toString and hashCode missing
+Fully completed, three methods example added
 
 Why this app even exists?
 ---------------
